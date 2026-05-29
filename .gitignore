@@ -24,8 +24,7 @@ data/*.jsonl
 probes/*.npy
 probes/*.json
 
-# Charts (generated)
-charts/*.png
+# Charts are committed — small generated images for GitHub rendering
 
 # IDE
 .vscode/
