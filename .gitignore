@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# MLX / Model files
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+
+# Data files (large)
+data/*.jsonl
+probes/*.npy
+probes/*.json
+
+# Charts (generated)
+charts/*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Environment / secrets
+.env
+*.env
+config.local.yaml
+
+# Social media drafts
+x_thread.md
